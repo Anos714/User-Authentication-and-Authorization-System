@@ -26,7 +26,8 @@ const Signup = () => {
     }
 
     try {
-      const url = "http://localhost:8080/api/auth/register";
+      const url =
+        "https://user-authentication-and-authorizati-eight.vercel.app/api/auth/register";
       const response = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
